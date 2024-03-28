@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="fixed-post">
+        <p>Trying to start a career path? Programming is the move. Change my mind.</p>
+    </div>
+    <div id="comments-section">
+        <div class="comment">
+            <p class="comment-text">This is an example comment.</p>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </div>
+    </div>
+    <div id="comment-form">
+        <input type="text" id="display-name" placeholder="Display Name">
+        <textarea id="new-comment" placeholder="Write a comment..."></textarea>
+        <button id="submit-comment">Submit Comment</button>
+        <button type="button"
+        onclick="document.getElementById('demo').innerHTML = Date()">
+        Click me to display Date and Time.</button>
+
+    <p id="demo"></p>
+
+    </div>
+</body>
+</html>

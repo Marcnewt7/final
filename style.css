@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#fixed-post {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #3585d4;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+#comments-section {
+    margin-top: 60px; 
+    padding: 10px;
+}
+
+.comment {
+    background-color: #d56e6e;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#comment-form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5a7691;
+    padding: 10px;
+    box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+#display-name, #new-comment, #submit-comment {
+    width: 100%;
+    margin: 5px 0;
+}
+
+#new-comment {
+    height: 60px;
+}
